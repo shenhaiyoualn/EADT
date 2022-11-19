@@ -20,8 +20,8 @@ This project can generate face sketch  from photos using the GAN-based model.
 [`Paper@IEEE`](https://ieeexplore.ieee.org/abstract/document/9845477)   [`Code@Github`](https://github.com/shenhaiyoualn/EADT)  
 
 ## Framework
+<div align=center><img width="150" height="150" src=imgs/fig1.png/></div>
 
-![](imgs/fig1.png)
 
 ## Sample Results
 
