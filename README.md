@@ -23,31 +23,13 @@ This project can generate face sketch  from photos using the GAN-based model.
 <div align=center><img width="1076" height="376" src=imgs/fig1.png/></div>
 
 
-## Sample Results
-
-![](imgs/cufs.jpg)
-
-Synthesized face sketches on the CUFS dataset: (a) input face photo, (b) FSS-NST, (c) CycleGAN, (d)
-Pix2Pix, (e) pGAN, (f) SS-FSS, (g) MDAL, (h) KT-FSS, (i) GauGAN, (j) SCA-GAN, (k) GENRE (ours), (l) target sketch, and (m) parsing mask predicted by BiSeNet.
-
-
-
-![](imgs/robust.jpg)
-
-Synthesised sketches for faces in-the-wild: (a) input photo, (b) FSS-NST, (c) CycleGAN, (d) Pix2Pix, (e) SSL-FSS, (f) GauGAN, (g) SCA-GAN, and (h) GENRE.
-
-
-
-![](imgs/ffhq.jpg)
-
-Synthesised sketches for faces in the CelebA-HQ dataset: (a) input photo, (b) FSS-NST, (c) CycleGAN, (d) Pix2Pix, (e) SSL-FSS, (f) GauGAN, (g) SCA-GAN, and (h) GENRE.
 
 ## Prerequisites
 
-- Linux or macOS
-- Python 3.7.3
+- Linux 
+- Python 3.7
 - Pytorch-lightning 0.7.5
-- CPU or NVIDIA GPU + CUDA CuDNN
+- NVIDIA GPU + CUDA + CuDNN
 
 ## Getting Started
 
@@ -56,8 +38,8 @@ Synthesised sketches for faces in the CelebA-HQ dataset: (a) input photo, (b) FS
 * Clone this repo: 
 
   ```
-  git clone https://github.com/fei-hdu/genre
-  cd genre
+  git clone https://github.com/shenhaiyoualn/EADT
+  cd EADT
   ```
 
 * Install PyTorch 0.4+ and torchvision from [http://pytorch.org](http://pytorch.org/) and other dependencies (e.g., [visdom](https://github.com/facebookresearch/visdom) and [dominate](https://github.com/Knio/dominate)). You can install all the dependencies by
