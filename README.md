@@ -42,7 +42,7 @@ This project can generate face sketch  from photos using the GAN-based model.
   cd EADT
   ```
 
-* Install PyTorch 0.4+ and torchvision from [http://pytorch.org](http://pytorch.org/) and other dependencies (e.g., [visdom](https://github.com/facebookresearch/visdom) and [dominate](https://github.com/Knio/dominate)). You can install all the dependencies by
+* Install all the dependencies by:
 
   ```
   pip install -r requirements.txt
