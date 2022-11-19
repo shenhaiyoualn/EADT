@@ -1,16 +1,18 @@
-# GENRE
+# EADT
 
-> Face sketch synthesis, GANs, SPADE, image-to-image translation
+> Face sketch synthesis, image-to-image translation
 
-We provide `PyTorch` implementations for our  ICME2021 paper [`GENRE`](https://ieeexplore.ieee.org/abstract/document/9428348): 
+We provide `PyTorch` implementations for our  TIFS2022 paper [`EADT`](https://ieeexplore.ieee.org/abstract/document/9845477): 
 
 ```latex
-@InProceedings{Li2021GENRE,
-author = {Xiang Li and Fei Gao and Fei Huang},
-title = {High-quality Face Sketch Synthesis via Geometric Normalization and Regularization},
-booktitle = {IEEE International Conference on Multimedia and Expo (ICME) 2021},
-month = {July 5-9},
-year = {2021}
+@article{zhang2022edge,
+  title={Edge Aware Domain Transformation for Face Sketch Synthesis},
+  author={Zhang, Congyu and Liu, Decheng and Peng, Chunlei and Wang, Nannan and Gao, Xinbo},
+  journal={IEEE Transactions on Information Forensics and Security},
+  volume={17},
+  pages={2761--2770},
+  year={2022},
+  publisher={IEEE}
 }
 ```
 
