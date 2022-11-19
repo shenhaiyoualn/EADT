@@ -16,9 +16,8 @@ We provide `PyTorch` implementations for our TIFS2022 paper [`EADT`](https://iee
 }
 ```
 
-This project generates **artistic portrait drawings** (e.g. pencil-drawing) from face photos using a GAN-based model. You may find useful information in preprocessing steps.
-
-[`Paper@IEEE`](https://ieeexplore.ieee.org/abstract/document/9428348)   [`Code@Github`](https://github.com/fei-hdu/genre)   [`Project`](http://aiart.live/genre/) 
+This project can generate face sketch  from photos using the GAN-based model.
+[`Paper@IEEE`](https://ieeexplore.ieee.org/abstract/document/9845477)   [`Code@Github`](https://github.com/shenhaiyoualn/EADT)  
 
 ## Framework
 
