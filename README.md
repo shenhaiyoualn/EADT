@@ -50,10 +50,9 @@ This project can generate face sketch  from photos using the GAN-based model.
 
 ### train/test
 
-* Download CUFS and CUFSF dataset.  
-* Download parsing [model](https://drive.google.com/file/d/1VNEoJEZLLdvX-cP0xohyWv_xYqNtprjU/view?usp=share_link)
-* 
-* copy content to `dataset` folder
+* Download CUFS and CUFSF dataset and put it in the dataset directory
+* Download parsing [model](https://drive.google.com/file/d/1VNEoJEZLLdvX-cP0xohyWv_xYqNtprjU/view?usp=share_link) and move it to model/parsing/cp/
+
 
 * Train a model
 
