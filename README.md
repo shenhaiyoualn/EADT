@@ -52,7 +52,7 @@ This project can generate face sketch  from photos using the GAN-based model.
 
 * Download CUFS and CUFSF dataset and put it in the dataset directory
 * Download parsing [model](https://drive.google.com/file/d/1VNEoJEZLLdvX-cP0xohyWv_xYqNtprjU/view?usp=share_link) and move it to /model/parsing/cp/
-* You need to process the file into the format of the /dataset/list_train_sample.txt directory
+* You need to process the file into the format of the /dataset/list_train_sample.txt directory (mat1 and mat2 represent the results of the segmentation process of photos and sketches, respectively）
 
 
 
@@ -71,7 +71,7 @@ This project can generate face sketch  from photos using the GAN-based model.
 
 ### Preprocessing steps
 
-If you need to use your own data, please align all faces by eyes and the face parsing is segmented by [face-parsing](https://github.com/zllrunning/face-parsing.PyTorch)
+If you need to use your own data, please align all faces by eyes and the face parsing is segmented by [face-parsing](https://github.com/jehovahxu/face-parsing.PyTorch)
 
 
 ## Citation
