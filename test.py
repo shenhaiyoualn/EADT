@@ -1,4 +1,3 @@
-# python test.py --use_en_feature --img_w 200 --img_h 250 --input_size 256  --checkpoint_dir /home/sd01/EADT/checkpoint/linshi.ckpt
 from kornia.augmentation import CenterCrop
 from torchvision.transforms import ToPILImage
 from torch.utils.data import DataLoader
