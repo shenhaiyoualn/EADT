@@ -59,7 +59,7 @@ This project can generate face sketch  from photos using the GAN-based model.
 * Train a model
 
   ```
-  python train.py --dataset_train_list list_train.txt --dataset_test_list list_test.txt --use_en_feature --use_gmsd --img_w 200 --img_h 250 --input_size 256
+  # python train.py --dataset_train_list train_sample.txt --dataset_test_list test_sample.txt   --name eadt
   ```
 
 * Test the model
