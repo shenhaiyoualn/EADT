@@ -1,8 +1,8 @@
 # EADT
 
-> Face sketch synthesis, image-to-image translation
+> Face sketch synthesis, image-to-image translation, generative adversarial network, edge-aware domain transformation, edge-preserving filter.
 
-We provide `PyTorch` implementations for our  TIFS2022 paper [`EADT`](https://ieeexplore.ieee.org/abstract/document/9845477): 
+We provide `PyTorch` implementations for our TIFS2022 paper [`EADT`](https://ieeexplore.ieee.org/abstract/document/9845477): 
 
 ```latex
 @article{zhang2022edge,
