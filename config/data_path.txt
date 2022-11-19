@@ -1,0 +1,1 @@
+cufs||list_train.txt||list_test.txt||250||200
