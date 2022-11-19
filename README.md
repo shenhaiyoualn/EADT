@@ -65,12 +65,9 @@ This project can generate face sketch  from photos using the GAN-based model.
 * Test the model
 
   ```
-  python test.py --use_en_feature --img_w 200 --img_h 250 --input_size 256
+  python test.py  --input_size 256  --checkpoint_dir /home/sd01/EADT/checkpoint/eadt.ckpt
   ```
 
-* If you want to train on your own data, please first align your pictures and prepare your data's facial parsing according to tutorial in [preprocessing steps](#jump).
-
-* The test results are available at [[Google Drive]](https://drive.google.com/drive/folders/1Y-YUAm_c77tyzAX6HsDIDGcbuLdcDhCb?usp=sharing)
 
 ### Apply a pre-trained model
 
@@ -105,20 +102,22 @@ Our portrait drawing demos: (a) QR code of the applet of WeChat, (b) QR code of 
 
  If you use this code for your research, please cite our paper. 
 
-> Xiang Li, Fei Gao*, and Fei Huang, High-quality Face Sketch Synthesis via Geometric Normalization and Regularization, IEEE International Conference on Multimedia and Expo (ICME) 2021, July 5-9, 2021, Virtual. (Accepted)
+> Zhang, C., Liu, D., Peng, C., Wang, N., & Gao, X. (2022). Edge Aware Domain Transformation for Face Sketch Synthesis. IEEE Transactions on Information Forensics and Security, 17, 2761-2770. (Accepted)
 
 **bibtex:**
 
 ```latex
-@InProceedings{Li2021GENRE,
-author = {Xiang Li and Fei Gao and Fei Huang},
-title = {High-quality Face Sketch Synthesis via Geometric Normalization and Regularization},
-booktitle = {IEEE International Conference on Multimedia and Expo (ICME) 2021},
-month = {July 5-9},
-year = {2021}
+@article{zhang2022edge,
+  title={Edge Aware Domain Transformation for Face Sketch Synthesis},
+  author={Zhang, Congyu and Liu, Decheng and Peng, Chunlei and Wang, Nannan and Gao, Xinbo},
+  journal={IEEE Transactions on Information Forensics and Security},
+  volume={17},
+  pages={2761--2770},
+  year={2022},
+  publisher={IEEE}
 }
 ```
 
 ## Acknowledgments
 
-Our code is inspired by [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [SPADE/GauGAN](https://github.com/NVlabs/SPADE).
+Our code is inspired by [GENRE](https://github.com/fei-hdu/genre) and [SPADE/GauGAN](https://github.com/NVlabs/SPADE).
