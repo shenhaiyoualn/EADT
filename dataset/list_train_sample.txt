@@ -1,2 +1,0 @@
-CUFS/photos/0.jpg||CUFS/sketches/0.jpg||CUFS/mat/0.mat||CUFS/mat2/0.mat
-CUFSF/photos/1.jpg||CUFSF/sketches/1.jpg||CUFSF/mat/1.mat||CUFSF/mat2/1.mat
