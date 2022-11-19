@@ -21,9 +21,7 @@ This project can generate face sketch  from photos using the GAN-based model.
 
 ## Framework
 
-![](imgs/genre.jpg)
-
-![](imgs/espade.jpg)
+![](imgs/fig1.pdf)
 
 ## Sample Results
 
