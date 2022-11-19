@@ -69,34 +69,10 @@ This project can generate face sketch  from photos using the GAN-based model.
   ```
 
 
-### Apply a pre-trained model
-
-- A face $photo \mapsto sketch$ model pre-trained on [CUHK/CUFS]( https://drive.google.com/drive/folders/1A1LABGQKUAN9tYunb8tHjsASLxSL313D?usp=sharing)
-- The [pre-trained model](https://drive.google.com/drive/folders/1lrb-K4_xuMGLYka-G3hAJ1Y3iZefuBcD?usp=sharing) need to be save at `./checkpoint`
-- Then you can test the model
-
 ### Preprocessing steps
 
-Face photos (and paired drawings) need to be aligned and have facial parsing. And facial parsing after alignment are needed in our code in training. 
+If you need to use your own data, please align all faces by eyes and the face parsing is segmented by [face-parsing](https://github.com/zllrunning/face-parsing.PyTorch)
 
-In our work,facial parsing is segmented by method in [1]
-
-* First,  we need to align, resize and crop face photos (and corresponding drawings) to 256x256 
-* Then,we use code in https://github.com/zllrunning/face-parsing.PyTorch to detect facial parsing for face photos and drawings. 
-
-> [1] Yu, Changqian, et al. "**Bisenet**: Bilateral segmentation network for real-time semantic segmentation." *Proceedings of the European conference on computer vision (ECCV)*. 2018.
-
-## Demo
-
-<video width="480" height="270" controls>
-
-<source src="demo.mp4" type="video/mp4">
-
-</video>
-
-Our portrait drawing demos: (a) QR code of the applet of WeChat, (b) QR code of the Web API, (c)-(e) layouts of the applet of WeChat, and (f) picture of the drawing robot. Readers can try our demos by scanning the QR codes.
-
-![](imgs/demo.jpg)
 
 ## Citation
 
