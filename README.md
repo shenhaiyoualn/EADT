@@ -16,7 +16,7 @@ We provide `PyTorch` implementations for our TIFS2022 paper [`EADT`](https://iee
 }
 ```
 
-This project can generate face sketch  from photos using the GAN-based model.
+This project can generate face sketch from photos using the GAN-based model.
 [`Paper@IEEE`](https://ieeexplore.ieee.org/abstract/document/9845477)   [`Code@Github`](https://github.com/shenhaiyoualn/EADT)  
 
 ## Framework
@@ -59,7 +59,7 @@ This project can generate face sketch  from photos using the GAN-based model.
 * Train a model
 
   ```
-  # python train.py --dataset_train_list train_sample.txt --dataset_test_list test_sample.txt   --name eadt
+  python train.py --dataset_train_list train_sample.txt --dataset_test_list test_sample.txt   --name eadt
   ```
 
 * Test the model
