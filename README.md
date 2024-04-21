@@ -45,7 +45,7 @@ This project can generate face sketch from photos using the GAN-based model.
 * Install all the dependencies by:
 
   ```
-  pip install -r requirements.txt
+  conda env create -f environment.yml
   ```
 
 ### train/test
