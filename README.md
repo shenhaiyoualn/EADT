@@ -48,7 +48,7 @@ This project can generate face sketch from photos using the GAN-based model.
   conda env create -f environment.yml
   ```
 
-### train/test
+### train and test
 
 * Download CUFS and CUFSF dataset and put it in the dataset directory
 * Download parsing [model](https://drive.google.com/file/d/1VNEoJEZLLdvX-cP0xohyWv_xYqNtprjU/view?usp=share_link) and move it to /model/parsing/cp/
@@ -56,18 +56,12 @@ This project can generate face sketch from photos using the GAN-based model.
 
 
 
-* Train a model
+* Train a model.
 
   ```
   python train.py --dataset_train_list train_sample.txt --dataset_test_list test_sample.txt   --name eadt
   ```
-
-* Test the model
-
-  ```
-  python test.py  --input_size 256  --checkpoint_dir /home/sd01/EADT/checkpoint/eadt.ckpt
-  ```
-
+This command will test the model while training.
 
 ### Preprocessing steps
 
